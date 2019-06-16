@@ -1,0 +1,12 @@
+body {
+    padding: 5px;
+}
+
+h1, footer {
+    text-align: center;
+}
+
+footer {
+    size: 70%;
+    color: grey;
+}
