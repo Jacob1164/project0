@@ -10,3 +10,11 @@ footer {
     size: 70%;
     color: grey;
 }
+
+.taken {
+    color: green;
+}
+
+.not_taken {
+    color: red;
+}
