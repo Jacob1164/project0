@@ -6,6 +6,21 @@
         <link href="style.css" rel="stylesheet"/>
     </head>
     <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"><a class="nav-link" href="english.html">English</a></li>
+                  <li class="nav-item"><a class="nav-link" href="math.html">Math</a></li>
+                  <li class="nav-item"><a class="nav-link" href="science.html">Science</a></li>
+                  <li class="nav-item"><a class="nav-link" href="social.html">Social Studies</a></li>
+                  <li class="nav-item"><a class="nav-link" href="language.html">World Language</a></li>
+              </ul>
+          </div>
+      </nav>
         <h1>High School Classes</h1>
         <p>This is a website that outlines the classes in the course subjects that I have taken and have yet to take in high school. Click on any of the
         following links to visit the corresponding page.</p>
@@ -19,7 +34,7 @@
             <li><h3><a href="language.html">World Language</a></h3></li>
           </ul>
         </div>
-        <div>
+        <div class= "row">
             <div class="col-lg-6 col-sm-12">
                 <h4>Top 5 Favorite Classes</h4>
                 <table class="table">
@@ -63,7 +78,7 @@
                     </tbody>
                 </table>
           </div>
-          <div class="col-lg-6 col-sm-12">
+          <div class="col-lg-6 col-sm-12" position="relative">
               <h4>Top 5 Worst Classes</h4>
               <table class="table">
                   <thead>
@@ -105,15 +120,14 @@
                       </tr>
                   </tbody>
               </table>
-        </div>
-      <div>
-      <div class="col-lg-6 col-sm-12">
-          <img src="photo.jpg" position="float"/>
+          </div>
       </div>
 
-        <footer>
-            <p>Jacob Frabutt</p>
-            <p>CS50's Web Programming with Python and JavaScript: Project 0</p>
-        </footer>
+      <h3>Class photo from favorite class</h3>
+      <img src="photo.jpg"/>
+
+      <footer>
+          <p></p>
+      </footer>
     </body>
 </html>

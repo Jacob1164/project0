@@ -13,6 +13,18 @@ h3 {
     padding: 5px;
 }
 
+@media (min-width: 800px) {
+    footer > p::before {
+        content: "CS50's Web Programming with Python and JavaScript: Project 0"
+    }
+}
+
+@media (max-width: 799px) {
+    footer > p::before {
+        content: "CS50's Project 0"
+    }
+}
+
 #left_aligned {
     text-align: left;
 }
