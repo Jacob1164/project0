@@ -7,14 +7,26 @@ h1, footer {
 }
 
 footer {
-    size: 70%;
+    size: 40%;
     color: grey;
 }
 
 .taken {
-    color: green;
+    color: rgb(0, 180, 0);
 }
 
 .not_taken {
     color: red;
+}
+
+@media (min-width: 500px) {
+    footer > p::before {
+        content: "CS50's Web Programming with Python and JavaScript: Project 0"
+    }
+}
+
+@media (max-width: 499px) {
+    footer > p::before {
+        content: "CS50's Project 0"
+    }
 }
