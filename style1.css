@@ -1,0 +1,24 @@
+body {
+  padding: 5px; }
+
+h1, footer {
+  text-align: center; }
+
+footer {
+  size: 40%;
+  color: grey; }
+
+.taken {
+  color: #00b400; }
+
+.not_taken {
+  color: red; }
+
+@media (min-width: 800px) {
+  footer > p::before {
+    content: "CS50's Web Programming with Python and JavaScript: Project 0"; } }
+@media (max-width: 799px) {
+  footer > p::before {
+    content: "CS50's Project 0"; } }
+
+/*# sourceMappingURL=style1.css.map */

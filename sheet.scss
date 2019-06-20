@@ -1,0 +1,40 @@
+$padd: 5px;
+
+%expand {
+  padding: $padd;
+}
+
+body {
+    @extend %expand;
+    text-align: center;
+}
+
+footer {
+    size: 70%;
+    color: grey;
+}
+
+h3 {
+    @extend %expand;
+    margin: $padd;
+}
+
+@media (min-width: 800px) {
+    footer > {
+        p::before {
+            content: "CS50's Web Programming with Python and JavaScript: Project 0"
+        }
+    }
+}
+
+@media (max-width: 799px) {
+    footer > {
+        p::before {
+            content: "CS50's Project 0"
+        }
+    }
+}
+
+#left_aligned {
+    text-align: left;
+}
